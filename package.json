@@ -1,7 +1,8 @@
+
 {
-  "name": "fadehost-telegram-starter-bot",
+  "name": "yeyint-story-bot",
   "version": "1.0.0",
-  "description": "A Telegram bot starter: commands, an inline button, an echo, polling or webhook mode. Hosted by FadeHost.",
+  "description": "YeYintStoryBot with speech recognition",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -11,7 +12,7 @@
     "node": ">=20"
   },
   "dependencies": {
-    "grammy": "^1.30.0"
-  },
-  "license": "MIT"
+    "grammy": "^1.30.0",
+    "ffmpeg-static": "^5.2.0"
+  }
 }
